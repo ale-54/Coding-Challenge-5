@@ -37,3 +37,8 @@ console.log(`Discounted Prices: `, discountPrice); //displaying the discount pri
 let inventory = [0, 12, 53, 4, 95]; //product quantities
 let inStock = inventory.filter(stock => stock > 0 ); //filtering out products with zero (0) stock
 console.log(`Product Stock: `, inStock); //displaying the updated array
+
+//Task 6: Reduce Method
+let sales = [500, 300, 200, 400];
+let totalRevenue = sales.reduce((total, sales) => total + sales, 0); //calculating total revenue
+console.log(`Total Revenue: `, totalRevenue); //displaying total revenue

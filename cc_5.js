@@ -19,3 +19,11 @@ displayOrder() {
     } //logging the order details and separated in each line
 };
 order.displayOrder(); //displaying the order
+
+//Task 3: Array Manipulation (push, pop, shift, unshift)
+let cartItems = [`Hamster`, `Minecraft Java Edition`, `Bread`]; //array of 3 product items
+cartItems.push(`Worcestershire Sauce`); //adding product to cart
+cartItems.pop(); //removing last item, Worcestershire Sauce
+cartItems.unshift(`Burberry Her EDT`); //adding product to beginning of cart
+cartItems.shift(); //removing first item in cart, Burberry Her EDT
+console.log(`Cart Items: `, cartItems); //displaying cart items: hamster, minecraft java edition, bread

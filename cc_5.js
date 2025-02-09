@@ -42,3 +42,8 @@ console.log(`Product Stock: `, inStock); //displaying the updated array
 let sales = [500, 300, 200, 400];
 let totalRevenue = sales.reduce((total, sales) => total + sales, 0); //calculating total revenue
 console.log(`Total Revenue: `, totalRevenue); //displaying total revenue
+
+//Task 7: find() Method
+let customers = ["Alice", "Bob", "Charlie", "David"];
+let findingCustomer = customers.find(customer => customer === "Charlie"); //finding Charlie in array
+console.log(`Customer: `, findingCustomer); //displaying the identified customer

@@ -32,3 +32,8 @@ console.log(`Cart Items: `, cartItems); //displaying cart items: hamster, minecr
 let prices = [100, 200, 300];
 let discountPrice = prices.map(prices => prices * .9); //applying a 10% discount to each price
 console.log(`Discounted Prices: `, discountPrice); //displaying the discount prices of the array
+
+//Task 5: Filter Method
+let inventory = [0, 12, 53, 4, 95]; //product quantities
+let inStock = inventory.filter(stock => stock > 0 ); //filtering out products with zero (0) stock
+console.log(`Product Stock: `, inStock); //displaying the updated array

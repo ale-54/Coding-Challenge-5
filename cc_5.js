@@ -27,3 +27,8 @@ cartItems.pop(); //removing last item, Worcestershire Sauce
 cartItems.unshift(`Burberry Her EDT`); //adding product to beginning of cart
 cartItems.shift(); //removing first item in cart, Burberry Her EDT
 console.log(`Cart Items: `, cartItems); //displaying cart items: hamster, minecraft java edition, bread
+
+//Task 4: Map Method
+let prices = [100, 200, 300];
+let discountPrice = prices.map(prices => prices * .9); //applying a 10% discount to each price
+console.log(`Discounted Prices: `, discountPrice); //displaying the discount prices of the array

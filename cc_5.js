@@ -61,3 +61,10 @@ const applyDiscount = function(price, discount) {
 }; //calculating the discounted price
 let discountedPrice = applyDiscount(50, 15);
 console.log(`Discounted Price: $${discountedPrice}`); //displaying the discounted price
+
+//Task 10: Arrow Function
+const calculatePoints = (purchaseAmount) => {
+    return Math.floor(purchaseAmount / 10); //rounding down with math floor
+}; //calculating the point system per $10 spent
+let points = calculatePoints(567);
+console.log(`Loyalty Points Acquired: ${points}`); //displaying the points
